@@ -1,13 +1,13 @@
 {
   "name": "vue2-superplaceholder",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "SuperPlaceholder based on [superplaceholder.js](https://github.com/chinchang/superplaceholder.js) for Vue 2.x.",
   "main": "src/SuperPlaceholder.vue",
   "repository": "Gomah/vue2-superplaceholder",
   "author": "Gomah <hi@gomah.fr>",
   "license": "MIT",
   "files": [
-    "src/Superplaceholder.vue"
+    "src/SuperPlaceholder.vue"
   ],
   "scripts": {
     "lint": "eslint --ext .vue src/"
