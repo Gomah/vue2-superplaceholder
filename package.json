@@ -1,0 +1,33 @@
+{
+  "name": "vue2-superplaceholder",
+  "version": "1.0.0",
+  "description": "SuperPlaceholder based on [superplaceholder.js](https://github.com/chinchang/superplaceholder.js) for Vue 2.x.",
+  "main": "src/SuperPlaceholder.vue",
+  "repository": "Gomah/vue2-superplaceholder",
+  "author": "Gomah <hi@gomah.fr>",
+  "license": "MIT",
+  "files": [
+    "src/Superplaceholder.vue"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .vue src/"
+  },
+  "keywords": [
+    "vue",
+    "javascript",
+    "html",
+    "input"
+  ],
+  "peerDependencies": {
+    "vue": ">=2"
+  },
+  "dependencies": {
+    "superplaceholder": "^0.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.1.3",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
