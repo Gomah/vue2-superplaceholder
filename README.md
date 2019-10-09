@@ -1,7 +1,10 @@
 # vue2-superplaceholder
 
-SuperPlaceholder based on [superplaceholder.js](https://github.com/chinchang/superplaceholder.js) for Vue 2.x.
+SuperPlaceholder component based on [superplaceholder.js](https://github.com/chinchang/superplaceholder.js) for Vue 2.x.
 
+> superplaceholder.js is a library to bring your input placeholders to life by cycling multiple instructions in a single input placeholder.
+
+[![circle-ci][circle-src]][circle-href]
 [![npm version][npm-version-src]][npm-version-href]
 [![Dependencies][david-dm-src]][david-dm-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
@@ -83,6 +86,8 @@ options: {
 
 [npm-version-src]: https://img.shields.io/npm/dt/vue2-superplaceholder.svg?style=flat-square
 [npm-version-href]: https://npmjs.com/package/vue2-superplaceholder
+[circle-src]: https://circleci.com/gh/Gomah/vue2-superplaceholder.svg?style=shield
+[circle-href]: https://circleci.com/gh/Gomah/vue2-superplaceholder
 [npm-downloads-src]: https://img.shields.io/npm/v/vue2-superplaceholder/latest.svg?style=flat-square
 [npm-downloads-href]: https://npmjs.com/package/vue2-superplaceholder
 [david-dm-src]: https://david-dm.org/gomah/vue2-superplaceholder/status.svg?style=flat-square
