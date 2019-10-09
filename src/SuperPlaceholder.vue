@@ -1,22 +1,27 @@
 <template>
-  <input v-bind:value="value" placeholder="" @input="updateValue($event.target.value)" />
+  <input
+    :value="value"
+    placeholder=""
+    @input="updateValue($event.target.value)"
+  />
 </template>
 <script>
-import superplaceholder from 'superplaceholder';
-
 export default {
   props: {
     value: {
       type: String,
-      default: '',
+      default: null,
     },
     sentences: {
       type: Array,
-      default: [],
+      default: () => [],
     },
     options: {
       type: Object,
       default: () => ({}),
+    },
+    selector: {
+      default: null,
     },
   },
 
@@ -33,8 +38,10 @@ export default {
   },
 
   mounted() {
+    const superplaceholder = require('superplaceholder');
+
     this.superplaceholder = superplaceholder({
-      el: this.$el,
+      el: this.selector || this.$el,
       options: this.options,
       sentences: this.sentences,
     });
