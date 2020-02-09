@@ -21,6 +21,7 @@ export default {
       default: () => ({}),
     },
     selector: {
+      type: String,
       default: null,
     },
   },
@@ -48,7 +49,9 @@ export default {
   },
 
   beforeDestroy() {
-    this.superplaceholder.destroy();
+    if (this.superplaceholder) {
+      this.superplaceholder.destroy();
+    }
   },
 };
 </script>
