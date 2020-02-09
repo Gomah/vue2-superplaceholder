@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/Gomah/vue2-superplaceholder/compare/v2.0.1...v2.0.2) (2020-02-09)
+
+
+### Bug Fixes
+
+* **beforeDestroy:** make sure superplaceholder exists ([2d6cf91](https://github.com/Gomah/vue2-superplaceholder/commit/2d6cf917d01c443771d010a54d7831c7a7cead1f))
+
+
+### Chore
+
+* **deps-dev:** bump @babel/core from 7.7.7 to 7.8.4 ([5d83f33](https://github.com/Gomah/vue2-superplaceholder/commit/5d83f337f568975b7a221ef1e683623a1f43f06a))
+* **deps-dev:** bump @babel/preset-env from 7.7.7 to 7.8.4 ([3fead34](https://github.com/Gomah/vue2-superplaceholder/commit/3fead34af781c46612e2462b7bbc3b7a99095c1e))
+* **deps-dev:** bump @commitlint/cli from 8.3.4 to 8.3.5 ([827debd](https://github.com/Gomah/vue2-superplaceholder/commit/827debdbc57b68012b1c1664438c0bf410989700))
+* **deps-dev:** bump @vue/test-utils ([603ed4a](https://github.com/Gomah/vue2-superplaceholder/commit/603ed4ae40ad7c02cd4b94cd89e6b7fdf7a03a5c))
+* **deps-dev:** bump babel-jest from 24.9.0 to 25.1.0 ([b3a042e](https://github.com/Gomah/vue2-superplaceholder/commit/b3a042e8a9316b345dc54f76d9da9cac48942200))
+* **deps-dev:** bump cross-env from 6.0.3 to 7.0.0 ([1a1eeae](https://github.com/Gomah/vue2-superplaceholder/commit/1a1eeae92cb422acebdff9fa65acd29c8ac5e685))
+* **deps-dev:** bump eslint-config-prettier from 6.9.0 to 6.10.0 ([591bcea](https://github.com/Gomah/vue2-superplaceholder/commit/591bceaa19107ac4704e855b68a2ffae65c9ab29))
+* **deps-dev:** bump eslint-import-resolver-webpack ([be2d194](https://github.com/Gomah/vue2-superplaceholder/commit/be2d194dcf572b74613ef04b38a8163acfe08ac9))
+* **deps-dev:** bump eslint-plugin-import from 2.19.1 to 2.20.0 ([dbc4de0](https://github.com/Gomah/vue2-superplaceholder/commit/dbc4de06f333a06c739a0db8fcfa969132d01187))
+* **deps-dev:** bump husky from 3.1.0 to 4.2.1 ([f1faf4c](https://github.com/Gomah/vue2-superplaceholder/commit/f1faf4c9d5251464b55ee748245812cbaaa984f6))
+* **deps-dev:** bump rollup from 1.29.0 to 1.31.0 ([0f17a21](https://github.com/Gomah/vue2-superplaceholder/commit/0f17a21ace1a09100b5315b774a863e92a101151))
+* **deps-dev:** bump rollup-plugin-terser from 5.1.3 to 5.2.0 ([97e7493](https://github.com/Gomah/vue2-superplaceholder/commit/97e7493d46daa37e229792a902a87834100f7735))
+* **deps-dev:** bump rollup-plugin-vue from 5.1.5 to 5.1.6 ([7e805fa](https://github.com/Gomah/vue2-superplaceholder/commit/7e805fa3177d9ae5663282fa7e1240507b5070d0))
+* **deps-dev:** bump standard-version from 7.0.1 to 7.1.0 ([9cb8703](https://github.com/Gomah/vue2-superplaceholder/commit/9cb8703002d1dd5847177ab4fc9d73b401ccd367))
+
 ### [2.0.1](https://github.com/Gomah/vue2-superplaceholder/compare/v2.0.0...v2.0.1) (2020-01-10)
 
 
